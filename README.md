@@ -1,4 +1,4 @@
-Hello, I'm [Pradeep] 👋
+Hello, I'm Pradeep 👋
 =========================
 
 
@@ -73,8 +73,8 @@ Projects
 --------
 
 -   [Hostel Management System](https://github.com/PradeepVPK/HostelManagementSystem) - A comprehensive web application for managing hostel facilities and student records. It includes features like room allocation, mess management, and student attendance tracking.
--   [Employee Management System](https://github.com/PradeepVPK/EmployeeManagementSystem) - An efficient employee management platform that simplifies HR tasks. It enables HR personnel to handle employee data, leaves, and attendance effortlessly.
--   [voice-based ChatBot](https://github.com/PradeepVPK/VoiceBot) - An efficient employee management platform that simplifies HR tasks. It enables HR personnel to handle employee data  effortlessly.
+-   [Employee Management System](https://github.com/PradeepVPK/EmployeeManagementSystem) - An efficient employee management platform that simplifies HR tasks. It enables HR personnel to handle employee data effortlessly.
+-   [voice-based ChatBot](https://github.com/PradeepVPK/VoiceBot) - An interactive chatbot powered by voice recognition technology. It facilitates natural language conversations and provides assistance on various topics, making it user-friendly for all.
 
 Contact Me
 ----------
