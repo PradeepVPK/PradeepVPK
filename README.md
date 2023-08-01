@@ -81,9 +81,9 @@ Contact Me
 
 📧 Email: <pradeepkumar15v06@gmail.com>
 
-🌐 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/pradeepvpk/)
+🌐 LinkedIn: [PradeepVPK](https://www.linkedin.com/in/pradeepvpk/)
 
-🌐 GitHub: [Your GitHub Profile](https://github.com/PradeepVPK)
+🌐 GitHub: [PradeepVPK](https://github.com/PradeepVPK)
 
 Feel free to connect with me! Let's collaborate and create something awesome together. 😊
 
