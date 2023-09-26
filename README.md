@@ -77,7 +77,14 @@ Projects
 -   [Employee Management System](https://github.com/PradeepVPK/EmployeeManagementSystem) - An efficient employee management platform that simplifies HR tasks. It enables HR personnel to handle employee data effortlessly.
 -   [voice-based ChatBot](https://github.com/PradeepVPK/VoiceBot) - An interactive chatbot powered by voice recognition technology. It facilitates natural language conversations and provides assistance on various topics, making it user-friendly for all.
 
+
+#GitHub Statistics
+
 ![pradeepvpk's Stats](https://github-readme-stats.vercel.app/api?username=pradeepvpk&theme=highcontrast&show_icons=true&hide_border=true&count_private=true)
+
+![pradeepvpk's Streak](https://github-readme-streak-stats.herokuapp.com/?user=pradeepvpk&theme=highcontrast&hide_border=true)
+
+![pradeepvpk's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pradeepvpk&theme=highcontrast&show_icons=true&hide_border=true&layout=compact)
 
 Contact Me
 ----------
