@@ -78,7 +78,7 @@ Projects
 -   [voice-based ChatBot](https://github.com/PradeepVPK/VoiceBot) - An interactive chatbot powered by voice recognition technology. It facilitates natural language conversations and provides assistance on various topics, making it user-friendly for all.
 
 
-#GitHub Statistics
+# GitHub Statistics
 
 ![pradeepvpk's Stats](https://github-readme-stats.vercel.app/api?username=pradeepvpk&theme=highcontrast&show_icons=true&hide_border=true&count_private=true)
 
