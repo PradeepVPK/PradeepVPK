@@ -86,6 +86,7 @@ Projects
 
 ![pradeepvpk's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pradeepvpk&theme=highcontrast&show_icons=true&hide_border=true&layout=compact)
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=pradeepvpk)](https://github.com/ryo-ma/github-profile-trophy)
 Contact Me
 ----------
 
