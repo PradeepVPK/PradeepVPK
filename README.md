@@ -60,13 +60,10 @@ Currently, I design and scale resilient data extraction pipelines and cloud infr
 
 ### 📊 GitHub Activity & Metrics
 
+# 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=PradeepVPK&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=PradeepVPK&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=PradeepVPK&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
----
-[![](https://komarev.com/ghpvc/?username=PradeepVPK&icon=0&color=0)](https://visitcount.itsvg.in)
-
 
 ---
 
