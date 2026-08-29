@@ -1,64 +1,71 @@
-Hello, I'm Pradeep 👋
-=========================
+# Hi, I'm Pradeep Vijayakumar 👋
 
-
-I am a final year student with a strong passion for Full Stack Java Development. 🚀 Here's a little about me and my skills:
-
-About Me
---------
-
-🎓 Final year student pursuing a Bachelors degree in Computer Science Engineering.
-💼 Enthusiastic about Full Stack Java Development and eager to explore the world of software engineering.
-🌱 Always seeking opportunities to learn and grow in the tech industry.
-📚 Constantly honing my skills in both frontend and backend technologies.
-🤝 Open to collaborating on exciting projects and contributing to the tech community.
-
-# 💻Tech Stack
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=java&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=plastic&logo=angular&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=plastic&logo=angularjs&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=plastic&logo=spring&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=plastic&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![Confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=plastic&logo=confluence&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=plastic&logo=jira&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=postman&logoColor=white)
-# 📊GitHub Stats :
-![](https://github-readme-stats.vercel.app/api?username=pradeepvpk&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=pradeepvpk&theme=highcontrast&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=pradeepvpk&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-### ✍️Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pradeepvpk/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/pradeepvpk/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pradeepkumar15v06@gmail.com)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=pradeepvpk&icon=0&color=12)](https://visitcount.itsvg.in)
 
+### 👨‍💻 About Me
 
+I am a **Software Engineer** specializing in **Distributed Backend Systems, High-Throughput Data Ingestion, and Platform Engineering**. 
 
+Currently, I design and scale resilient data extraction pipelines and cloud infrastructure handling millions of daily requests with high reliability.
 
+- ⚙️ **Core Focus:** Distributed Systems, Scalable API Architectures, Asynchronous Processing, and System Observability.
+- 🚀 **Scale & Impact:** Experience orchestrating data pipelines processing **4M+ requests/day** and designing sub-50ms real-time communication systems.
+- 🛠️ **Tech Specialties:** Node.js, TypeScript, Java (Spring Boot), Distributed Caching (Redis), Apache Airflow, Docker/Kubernetes.
+- 💬 **Ask me about:** Web scraping at scale, anti-bot bypass architectures, low-latency microservices, and queue orchestration.
 
+---
 
+### 🛠️ Tech Stack & Tooling
 
+**Languages & Core:** ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
+**Backend & Frameworks:** ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=flat-square&logo=spring-boot)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white)
 
-<p  align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
-                  
-  <br>
+**Databases, Queues & Distributed Systems:** ![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=flat-square&logo=redis&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=Apache%20Airflow&logoColor=white)
+![Google BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=google-cloud&logoColor=white)
 
+**Cloud, DevOps & Observability:** ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-web-services&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=flat-square&logo=grafana&logoColor=white)
 
-Projects
---------
+---
 
--   [Hostel Management System](https://github.com/PradeepVPK/HostelManagementSystem) - A comprehensive web application for managing hostel facilities and student records. It includes features like room allocation, mess management, and student attendance tracking.
--   [Employee Management System](https://github.com/PradeepVPK/EmployeeManagementSystem) - An efficient employee management platform that simplifies HR tasks. It enables HR personnel to handle employee data effortlessly.
--   [voice-based ChatBot](https://github.com/PradeepVPK/VoiceBot) - An interactive chatbot powered by voice recognition technology. It facilitates natural language conversations and provides assistance on various topics, making it user-friendly for all.
+### 📂 Featured Projects
 
+#### ⚡ [CodeShare — Real-Time Collaborative Code Editor](https://github.com/PradeepVPK)
+[cite_start]*A high-concurrency real-time editor supporting simultaneous multi-user code collaboration.* [cite: 31]
+- [cite_start]Achieved **sub-50ms synchronization latency** across concurrent sessions using a full-duplex WebSocket architecture over the STOMP protocol[cite: 32].
+- [cite_start]Implemented room-based session isolation to prevent race conditions during distributed simultaneous edits[cite: 33].
+- [cite_start]Scaled state propagation horizontally using **Redis Pub/Sub** across distributed server nodes[cite: 34].
+- [cite_start]**Tech:** `Java`, `Spring Boot`, `Redis`, `WebSockets`, `React.js` [cite: 31]
 
-Contact Me
-----------
+---
 
-📧 Email: <pradeepkumar15v06@gmail.com>
+### 📊 GitHub Activity & Metrics
 
-🌐 LinkedIn: [PradeepVPK](https://www.linkedin.com/in/pradeepvpk/)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=pradeepvpk&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Pradeep's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pradeepvpk&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
 
-🌐 GitHub: [PradeepVPK](https://github.com/PradeepVPK)
+---
 
-Feel free to connect with me! Let's collaborate and create something awesome together. 😊
-
-* * * * *
-
-Looking forward to new challenges and opportunities! Let's build the future of technology! 🚀🌟
+<p align="center">
+  <sub>Let's connect: <a href="mailto:pradeepkumar15v06@gmail.com">pradeepkumar15v06@gmail.com</a> | <a href="https://www.linkedin.com/in/pradeepvpk/">LinkedIn</a></sub>
+</p>
