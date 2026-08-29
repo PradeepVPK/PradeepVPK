@@ -61,8 +61,11 @@ Currently, I design and scale resilient data extraction pipelines and cloud infr
 ### 📊 GitHub Activity & Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=PradeepVPK&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Pradeep's GitHub Stats" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=PradeepVPK&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PradeepVPK&theme=tokyonight&hide_border=true" alt="Pradeep's GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=PradeepVPK&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
 </p>
 
 ---
