@@ -49,19 +49,20 @@ Currently, I design and scale resilient data extraction pipelines and cloud infr
 ### 📂 Featured Projects
 
 #### ⚡ [CodeShare — Real-Time Collaborative Code Editor](https://github.com/PradeepVPK)
-[cite_start]*A high-concurrency real-time editor supporting simultaneous multi-user code collaboration.* [cite: 31]
-- [cite_start]Achieved **sub-50ms synchronization latency** across concurrent sessions using a full-duplex WebSocket architecture over the STOMP protocol[cite: 32].
-- [cite_start]Implemented room-based session isolation to prevent race conditions during distributed simultaneous edits[cite: 33].
-- [cite_start]Scaled state propagation horizontally using **Redis Pub/Sub** across distributed server nodes[cite: 34].
-- [cite_start]**Tech:** `Java`, `Spring Boot`, `Redis`, `WebSockets`, `React.js` [cite: 31]
+*A high-concurrency real-time editor supporting simultaneous multi-user code collaboration.*
+
+* Achieved **sub-50ms synchronization latency** across concurrent sessions using a full-duplex WebSocket architecture over the STOMP protocol.
+* Implemented room-based session isolation to prevent race conditions during distributed simultaneous edits.
+* Scaled state propagation horizontally using **Redis Pub/Sub** across distributed server nodes.
+* **Tech:** `Java` `Spring Boot` `Redis` `WebSockets` `React.js`
 
 ---
 
 ### 📊 GitHub Activity & Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pradeepvpk&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Pradeep's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pradeepvpk&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=PradeepVPK&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Pradeep's GitHub Stats" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=PradeepVPK&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 ---
