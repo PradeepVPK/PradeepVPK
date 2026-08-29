@@ -61,11 +61,7 @@ Currently, I design and scale resilient data extraction pipelines and cloud infr
 ### 📊 GitHub Activity & Metrics
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PradeepVPK&theme=tokyonight&hide_border=true" alt="Pradeep's GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=PradeepVPK&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PradeepVPK&theme=tokyo-night&hide_border=true&area=true" alt="Pradeep's Activity Graph" />
 </p>
 
 ---
