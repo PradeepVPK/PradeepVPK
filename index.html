@@ -22,6 +22,16 @@
 <a class="button" href="#career">View my experience ↓</a><a href="mailto:pradeepkumar15v06@gmail.com">Get in touch ↗</a>
 </div>
 </div>
+<section hidden id="profile-api" aria-labelledby="api-title">
+<div class="api-top"><h2 id="api-title">Profile API</h2><span>Local explorer</span></div>
+<form id="api-form"><label for="api-route">GET</label><input id="api-route" value="/experience" spellcheck="false" autocomplete="off" autocapitalize="none" aria-label="Profile API route"><button type="submit">Send ↵</button></form>
+<div class="routes" aria-label="Available routes"><button>/experience</button><button>/skills</button><button>/projects</button></div>
+<div class="api-response"><div class="response-meta"><span>Response</span><output id="api-status"></output></div><pre id="payload"></pre></div>
+<a id="api-more" href="#career">Read employment history ↓</a></section></section>
+<section id="impact"><div class="heading">
+<h2>Engineering impact</h2>
+<span>Production systems · CommerceIQ</span>
+</div>
 <details class="tile pipeline" id="pipeline"><summary><span class="context">CommerceIQ · Data engineering</span><span class="arrow" aria-hidden="true">+</span><span class="tile-title">Distributed ingestion</span><div class="flow">
 <div>Validate</div>
 <b>→</b><div>Deduplicate</div>
@@ -35,12 +45,7 @@
 <p>Repeated input can consume capacity twice. A deduplication stage keeps repeated records from turning into repeated downstream work.</p>
 <h3>Schedule</h3>
 <p>Airflow coordinates when tasks run and how stages depend on each other. The resulting pipelines processed more than four million requests daily with 99.5% reliability.</p>
-</div></details></section>
-<section id="impact"><div class="heading">
-<h2>Engineering impact</h2>
-<span>Production systems · CommerceIQ</span>
-</div>
-<div class="grid two">
+</div></details><div class="grid two">
 <details class="tile crawler" id="crawler"><summary><span class="arrow" aria-hidden="true">+</span><span class="tile-title">API crawler automation</span>
 <span class="measure"><b>~90%</b> lower compute costs</span></summary><div class="story">
 <p>A browser runs a whole page to reach its data. Many of our extraction workloads could retrieve the same underlying structured data through a REST service.</p>

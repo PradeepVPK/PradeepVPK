@@ -138,3 +138,41 @@ h2 { font-size:clamp(2.8rem,5.5vw,4.8rem) }
   #skills dl { grid-template-columns:6.5rem 1fr }
   .project-map { padding-left:15px }
 }
+
+/* The route explorer stays compact enough to scan beside the introduction. */
+#profile-api {
+  min-width:0; padding:clamp(18px,2.8vw,34px); border-radius:22px;
+  background:linear-gradient(135deg,#322a4b,#201c30 68%);color:#f6f1ff;
+  border:1px solid #716184;box-shadow:inset 0 1px 0 #ffffff19,0 16px 55px #20152d22;
+}
+.api-top,.response-meta,#api-form,.routes {display:flex;align-items:center}
+.api-top,.response-meta {justify-content:space-between;gap:10px}
+.api-top h2 {font-size:2.5rem;letter-spacing:-.035em}
+.api-top span,.response-meta,.routes button,#api-form label,#api-route {font:500 .8rem/1.45 monospace}
+.api-top span {color:#d2c4db}
+#api-form {margin:18px 0 8px;padding:5px 5px 5px 12px;border-radius:8px;background:#15121d;border:1px solid #736282;gap:9px}
+#api-form label,.response-meta output {color:#b6edd3}
+#api-route {min-width:0;flex:1;padding:6px 0;border:0;background:transparent;color:white;font-size:.94rem}
+#api-form button {background:#d8c4fa;border:0;border-radius:5px;color:#261935;padding:8px 12px;font-weight:600}
+.routes {gap:6px;flex-wrap:wrap}
+.routes button {color:#d9cfdf;background:transparent;border:1px solid transparent;border-radius:5px;padding:5px 6px}
+.routes button:hover,.routes button[aria-pressed=true] {color:#fff;border-color:#766582;background:#493d59}
+.api-response {margin:18px 0;border-block:1px solid #69607166;padding:12px 0}
+.response-meta {color:#c7bed1;font-size:.72rem}
+#payload {color:#eee0ff;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65;margin:10px 0 0;font-size:.84rem}
+#api-more {color:#ddc9ff;font-size:.9rem;text-decoration:underline;text-underline-offset:4px}
+#impact>.pipeline {margin:0 0 16px}
+#impact>.pipeline summary {display:grid;grid-template-columns:1fr 1fr;column-gap:6%;align-items:center}
+#impact>.pipeline .flow {grid-column:2;grid-row:1/4;min-height:68px}
+#impact>.pipeline .measure {display:block;color:#e4d7ef}
+#impact>.pipeline .measure b {color:white;margin-right:5px;font-size:2rem}
+#impact>.pipeline .tile-title {order:0;margin:4px 0;font-size:1.55rem}
+.pointer-glow {position:fixed;left:-160px;top:-160px;width:320px;height:320px;z-index:5;pointer-events:none;opacity:0;border-radius:50%;background:radial-gradient(closest-side,#ad80ff16,transparent);transition:opacity .22s}
+.pointer-glow.visible {opacity:1}
+@media(min-width:1000px) and (min-height:650px){
+  header {position:sticky;top:0;z-index:4;backdrop-filter:blur(18px);background:color-mix(in srgb,#f2eff8 90%,transparent)}
+  [data-theme=dark] header {background:#151421e8}
+  #impact,#career,#skills,#projects,#contact,#main {scroll-margin-top:100px}
+}
+@media(max-width:680px){#impact>.pipeline summary{display:flex;align-items:stretch}#impact>.pipeline .flow{order:1;margin:8px 0}.api-top span{font-size:.7rem}}
+@media(prefers-reduced-motion:reduce),(hover:none){.pointer-glow{display:none}}
