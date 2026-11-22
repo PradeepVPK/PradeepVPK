@@ -7,7 +7,7 @@
 <meta name="description" content="Explore Pradeep Vijayakumar’s backend engineering work in data ingestion, crawler automation and developer tooling.">
 <title>Pradeep Vijayakumar · Backend engineering</title>
 <script>try { if (localStorage.getItem('pv-theme') === 'light') document.documentElement.dataset.theme = 'light'; } catch {}</script><link rel="stylesheet" href="style.css">
-<script defer src="motion.js"></script>
+<script defer src="motion.js?v=profile-toggle"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -24,10 +24,10 @@
 </div>
 <section hidden id="profile-api" aria-labelledby="api-title">
 <div class="api-top"><h2 id="api-title">Profile API</h2><span>Local explorer</span></div>
-<form id="api-form"><label for="api-route">GET</label><input id="api-route" value="/experience" spellcheck="false" autocomplete="off" autocapitalize="none" aria-label="Profile API route"><button type="submit">Send ↵</button></form>
+<form id="api-form"><label for="api-route">GET</label><input id="api-route" value="/experience" spellcheck="false" autocomplete="off" autocapitalize="none" aria-label="Profile API route"><button type="submit" aria-expanded="false" aria-controls="api-response">Send ↵</button></form>
 <div class="routes" aria-label="Available routes"><button>/experience</button><button>/skills</button><button>/projects</button></div>
 <p id="api-hint">Choose a route and press Send to explore my profile.</p>
-<div class="api-response" hidden><div class="response-meta"><span>Response</span><output id="api-status"></output></div><pre id="payload" tabindex="0" aria-label="JSON response body"></pre></div>
+<div id="api-response" class="api-response" hidden><div class="response-meta"><span>Response</span><output id="api-status"></output></div><pre id="payload" tabindex="0" aria-label="JSON response body"></pre></div>
 <a hidden id="api-more" href="#career">Read employment history ↓</a></section></section>
 <section id="impact"><div class="heading">
 <h2>Engineering impact</h2>
