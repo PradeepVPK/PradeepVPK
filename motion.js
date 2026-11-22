@@ -25,15 +25,15 @@ if ('IntersectionObserver' in window) {
 
 const profiles = new Map([
   ['/experience', {
-    data: { role: 'Software Engineer', company: 'CommerceIQ', since: 'July 2024', focus: 'Distributed ingestion' },
-    target: '#career', link: 'Read employment history'
+    data: { role: 'Software Engineer', company: 'CommerceIQ', since: 'July 2024', work: 'I build the services that collect and check our data.' },
+    target: '#career', link: 'See where I’ve worked'
   }],
   ['/skills', {
     data: { languages: ['Java', 'TypeScript', 'Python'], services: ['Spring Boot', 'Node.js'], data: ['Airflow', 'PostgreSQL', 'Redis'] },
     target: '#skills', link: 'Browse technical skills'
   }],
   ['/projects', {
-    data: { name: 'CodeShare', status: 'In development', transport: 'STOMP over WebSockets', messaging: 'Redis Pub/Sub' },
+    data: { name: 'CodeShare', idea: 'I’m building a shared editor so people can write code together.', status: 'In development', transport: 'STOMP over WebSockets', messaging: 'Redis Pub/Sub' },
     target: '#projects', link: 'Explore CodeShare'
   }]
 ]);
@@ -44,26 +44,72 @@ const shortcuts = explorer.querySelectorAll('.routes button');
 const payload = explorer.querySelector('pre');
 const more = explorer.querySelector('#api-more');
 
-function showRoute(value) {
-  const route = value.trim().replace(/^GET\s+/i, '').replace(/^\/?/, '/').replace(/\/$/, '').toLowerCase();
+const response = explorer.querySelector('.api-response');
+const hint = explorer.querySelector('#api-hint');
+const status = explorer.querySelector('output');
+
+function selectedRoute() {
+  const path = routeInput.value.trim().replace(/^GET\s+/i, '').toLowerCase();
+  return '/' + path.replace(/^\/+|\/+$/g, '');
+}
+
+function prepareRequest() {
+  response.hidden = true;
+  hint.hidden = false;
+  more.hidden = true;
+  status.textContent = '';
+  payload.replaceChildren();
+  const route = selectedRoute();
+  for (const button of shortcuts) {
+    button.setAttribute('aria-pressed', String(button.textContent === route));
+  }
+}
+
+function formatResponse(data) {
+  const json = JSON.stringify(data, null, 2);
+  const fragment = document.createDocumentFragment();
+  let offset = 0;
+  // Keep JSON.stringify's punctuation and indentation verbatim.
+  for (const match of json.matchAll(/"(?:\\.|[^"\\])*"/g)) {
+    fragment.append(json.slice(offset, match.index));
+    offset = match.index + match[0].length;
+    const token = document.createElement('span');
+    token.className = json[offset] === ':' ? 'json-key' : 'json-value';
+    token.textContent = match[0];
+    fragment.append(token);
+  }
+  fragment.append(json.slice(offset));
+  payload.replaceChildren(fragment);
+  payload.scrollTop = 0;
+}
+
+explorer.querySelector('form').addEventListener('submit', event => {
+  event.preventDefault();
+  const route = selectedRoute();
   const profile = profiles.get(route);
-  routeInput.value = route || '/';
-  explorer.querySelector('output').textContent = profile ? '200 OK' : '404 · Unknown route';
-  payload.textContent = JSON.stringify(profile?.data ?? { available: [...profiles.keys()] }, null, 2)
-    .replace(/\[\s*("[^\]]*?")\s*\]/g, (_, items) => '[' + items.replace(/,\s+/g, ', ') + ']');
+  routeInput.value = route;
+  hint.hidden = true;
+  response.hidden = false;
+  status.textContent = profile ? '200 OK' : '404 Not Found';
+  formatResponse(profile?.data ?? {
+    message: 'Try one of these routes to explore my profile.',
+    routes: [...profiles.keys()]
+  });
   more.hidden = !profile;
   if (profile) {
     more.href = profile.target;
     more.textContent = profile.link + ' ↓';
   }
-  for (const button of shortcuts) button.setAttribute('aria-pressed', String(button.textContent === route));
-}
-explorer.querySelector('form').addEventListener('submit', event => {
-  event.preventDefault();
-  showRoute(routeInput.value);
 });
-for (const button of shortcuts) button.addEventListener('click', () => showRoute(button.textContent));
-showRoute(routeInput.value);
+
+routeInput.addEventListener('input', prepareRequest);
+for (const button of shortcuts) {
+  button.addEventListener('click', () => {
+    routeInput.value = button.textContent;
+    prepareRequest();
+  });
+}
+prepareRequest();
 explorer.hidden = false;
 
 const pointerMotion = matchMedia('(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)');

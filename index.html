@@ -17,7 +17,7 @@
 <p class="eyebrow"><i></i> Backend software engineer</p>
 <h1>Pradeep<br><em>Vijayakumar.</em>
 </h1>
-<p class="lead">I build data systems at CommerceIQ, from the APIs that collect millions of requests to the tools that keep them running.</p>
+<p class="lead">At CommerceIQ, I build the services we use to collect data. My work ranges from handling millions of requests a day to helping another engineer get a new service running.</p>
 <div class="actions">
 <a class="button" href="#career">View my experience ↓</a><a href="mailto:pradeepkumar15v06@gmail.com">Get in touch ↗</a>
 </div>
@@ -26,8 +26,9 @@
 <div class="api-top"><h2 id="api-title">Profile API</h2><span>Local explorer</span></div>
 <form id="api-form"><label for="api-route">GET</label><input id="api-route" value="/experience" spellcheck="false" autocomplete="off" autocapitalize="none" aria-label="Profile API route"><button type="submit">Send ↵</button></form>
 <div class="routes" aria-label="Available routes"><button>/experience</button><button>/skills</button><button>/projects</button></div>
-<div class="api-response"><div class="response-meta"><span>Response</span><output id="api-status"></output></div><pre id="payload"></pre></div>
-<a id="api-more" href="#career">Read employment history ↓</a></section></section>
+<p id="api-hint">Choose a route and press Send to explore my profile.</p>
+<div class="api-response" hidden><div class="response-meta"><span>Response</span><output id="api-status"></output></div><pre id="payload" tabindex="0" aria-label="JSON response body"></pre></div>
+<a hidden id="api-more" href="#career">Read employment history ↓</a></section></section>
 <section id="impact"><div class="heading">
 <h2>Engineering impact</h2>
 <span>Production systems · CommerceIQ</span>
@@ -38,7 +39,7 @@
 <b>→</b><div>Schedule</div>
 </div>
 <span class="measure"><b>4M+</b> requests per day</span></summary><div class="story">
-<p>At four million requests a day, checking inputs, eliminating duplicates, and deciding when work should run are distinct engineering problems.</p>
+<p>When the same record arrives twice, processing both copies wastes time. I split our ingestion workflow into three stages so we could catch problems before passing work downstream.</p>
 <h3>Validate</h3>
 <p>I built multi-stage Apache Airflow DAGs with a dedicated validation step. Separating input checks from scheduling gives each stage a clear responsibility.</p>
 <h3>Deduplicate</h3>
@@ -50,9 +51,9 @@
 <span class="measure"><b>~90%</b> lower compute costs</span></summary><div class="story">
 <p>A browser runs a whole page to reach its data. Many of our extraction workloads could retrieve the same underlying structured data through a REST service.</p>
 <h3>The change</h3>
-<p>I re-architected heavy browser-based crawlers as asynchronous REST extraction services. A worker waiting on a network response can yield while other requests make progress.</p>
+<p>I moved those crawlers to asynchronous REST services. While one request waited for a response, the service could get on with the next one.</p>
 <h3>The outcome</h3>
-<p>Compute infrastructure costs for the affected workloads fell by approximately 90%. This figure measures extraction cost. The ingestion reliability and peak uptime figures describe separate production outcomes.</p>
+<p>Once those crawlers were running as API services, we spent about 90% less on compute for that work.</p>
 <h3>Operating under load</h3>
 <p>I profiled container CPU and memory on Kubernetes and investigated queue deadlocks across our cloud workloads. Resolving those bottlenecks helped sustain 99.9% crawler uptime during peak loads.</p>
 </div></details><details class="tile tooling" id="tooling"><summary><span class="arrow" aria-hidden="true">+</span><span class="tile-title">Tools for engineers</span>
@@ -70,7 +71,7 @@
 <p class="when">July 2024–present, Chennai</p>
 <div>
 <h3>CommerceIQ</h3>
-<em>Software Engineer</em><p>I work on distributed ingestion, extraction automation, developer tools, and reliability across containerized cloud workloads.</p>
+<em>Software Engineer</em><p>I build and run the services that collect our data. Some days that means tracking down a stuck queue. Other days it means writing a tool so another engineer can ship an integration sooner.</p>
 </div>
 </li>
 <li>
@@ -84,7 +85,7 @@
 <p class="when">October 2023–January 2024, remote</p>
 <div>
 <h3>YANA</h3>
-<em>Software Engineer Intern</em><p>I integrated itinerary recommendations driven by traveler telemetry, reducing response latency by 35%. A concurrent serialization service increased PDF, CSV, and JSON export throughput by 40%.</p>
+<em>Software Engineer Intern</em><p>I used signals from travelers to personalize itinerary recommendations and cut response time by 35%. I also built a service that could stream several exports at once, increasing PDF, CSV, and JSON export throughput by 40%.</p>
 </div>
 </li>
 </ol></section><section id="skills"><div>
@@ -107,7 +108,7 @@
 </dl></section><section id="projects"><div class="project-copy">
 <p class="context">Personal project · In development</p>
 <h2>CodeShare</h2>
-<p>A collaborative editor for people writing code in the same room. I’m working on keeping their edits in sync across server instances.</p>
+<p>I’m building a code editor where people can work together in a shared room. The part I’m working through is how to keep their edits in sync when they connect to different servers.</p>
 <details id="codeshare"><summary>Read the architecture</summary><div class="story">
 
 <h3>Inside a room</h3>

@@ -176,3 +176,10 @@ h2 { font-size:clamp(2.8rem,5.5vw,4.8rem) }
 }
 @media(max-width:680px){#impact>.pipeline summary{display:flex;align-items:stretch}#impact>.pipeline .flow{order:1;margin:8px 0}.api-top span{font-size:.7rem}}
 @media(prefers-reduced-motion:reduce),(hover:none){.pointer-glow{display:none}}
+#api-hint { margin:18px 0 0; color:#d2c4db; font-size:.88rem }
+#payload {
+  max-height:18rem; overflow:auto; padding:12px 14px; border-radius:8px;
+  background:#181520; color:#c4b8d0; font:400 .84rem/1.7 ui-monospace,monospace;
+}
+.json-key { color:#d8baff }
+.json-value { color:#ade0d0 }
