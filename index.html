@@ -11,7 +11,7 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header><a class="brand" href="#main"><b aria-hidden="true">pv.</b><span>Pradeep Vijayakumar</span></a><nav aria-label="Main navigation"><a href="#impact">Impact</a><a href="#career">Experience</a><a href="#projects">Project</a><a href="#lab">Pipeline lab</a><a href="#contact">Contact</a></nav><div class="controls">
+<header><a class="brand" href="#main"><b aria-hidden="true">pv.</b><span>Pradeep Vijayakumar</span></a><nav aria-label="Main navigation"><a href="#impact">Impact</a><a href="#career">Experience</a><a href="#skills">Skills</a><a href="#projects">Project</a><a href="#contact">Contact</a></nav><div class="controls">
 <button hidden id="theme" type="button" aria-label="Switch to light theme">☀</button><a class="download" download href="Pradeep-Vijayakumar.pdf">Résumé ↓</a>
 </div></header><main id="main"><section class="hero"><div class="bio">
 <p class="eyebrow"><i></i> Backend software engineer</p>
@@ -41,9 +41,7 @@
 <span>Production systems · CommerceIQ</span>
 </div>
 <div class="grid two">
-<details class="tile crawler" id="crawler"><summary><span class="context">CommerceIQ · Extraction</span><span class="arrow" aria-hidden="true">+</span><span class="tile-title">API crawler automation</span><div class="schema">
-<span>Browser</span><i>→</i><strong>REST API</strong>
-</div>
+<details class="tile crawler" id="crawler"><summary><span class="arrow" aria-hidden="true">+</span><span class="tile-title">API crawler automation</span>
 <span class="measure"><b>~90%</b> lower compute costs</span></summary><div class="story">
 <p>A browser runs a whole page to reach its data. Many of our extraction workloads could retrieve the same underlying structured data through a REST service.</p>
 <h3>The change</h3>
@@ -52,9 +50,7 @@
 <p>Compute infrastructure costs for the affected workloads fell by approximately 90%. This figure measures extraction cost. The ingestion reliability and peak uptime figures describe separate production outcomes.</p>
 <h3>Operating under load</h3>
 <p>I profiled container CPU and memory on Kubernetes and investigated queue deadlocks across our cloud workloads. Resolving those bottlenecks helped sustain 99.9% crawler uptime during peak loads.</p>
-</div></details><details class="tile tooling" id="tooling"><summary><span class="context">CommerceIQ · Developer tooling</span><span class="arrow" aria-hidden="true">+</span><span class="tile-title">Tools for engineers</span><div class="schema">
-<span>Schema</span><i>→</i><strong>Module</strong>
-</div>
+</div></details><details class="tile tooling" id="tooling"><summary><span class="arrow" aria-hidden="true">+</span><span class="tile-title">Tools for engineers</span>
 <span class="measure"><b>5 → 1.5</b> days to onboard a service</span></summary><div class="story">
 <p>Adding an internal service took five days. The repetitive part was translating an API contract into a module engineers could deploy.</p>
 <h3>Generate from the contract</h3>
@@ -63,63 +59,71 @@
 <p>For a separate analysis workflow, I built a pipeline using headless Android emulators and LLM-assisted tooling. Turnaround went from roughly eight hours to under ten minutes.</p>
 </div></details>
 </div></section>
-<section id="career"><div class="heading">
-<h2>Experience &amp; qualifications</h2>
-<span>Chennai, India</span>
+<section id="career"><h2>Experience</h2>
+<ol class="timeline">
+<li>
+<p class="when">July 2024–present, Chennai</p>
+<div>
+<h3>CommerceIQ</h3>
+<em>Software Engineer</em><p>I work on distributed ingestion, extraction automation, developer tools, and reliability across containerized cloud workloads.</p>
 </div>
-<div class="grid two">
-<details class="tile experience" id="experience"><summary><span class="context">Professional background</span><span class="arrow" aria-hidden="true">+</span><span class="tile-title">Employment history</span><div class="schema">
-<span>YANA</span><i>→</i><span>Tech Mahindra</span><i>→</i><strong>CommerceIQ</strong>
+</li>
+<li>
+<p class="when">February–April 2024, Chennai</p>
+<div>
+<h3>Tech Mahindra</h3>
+<em>Software Engineer Intern</em><p>I developed Java and Spring MVC services for resource allocation. Using location-specific rate cards and billing calendars in the budget model improved financial forecast accuracy by 25%.</p>
 </div>
-<span class="measure"><b>2023–now</b> three engineering roles</span></summary><div class="story">
-<p>My work has moved from real-time recommendations to forecasting and, today, production data infrastructure.</p>
-<h3>CommerceIQ · Software Engineer</h3>
-<p>July 2024–present, Chennai. I work on distributed ingestion, extraction automation, developer tools, and reliability across containerized cloud workloads.</p>
-<h3>Tech Mahindra · Software Engineer Intern</h3>
-<p>February–April 2024, Chennai. I developed Java and Spring MVC services for resource allocation. Using location-specific rate cards and billing calendars in the budget model improved financial forecast accuracy by 25%.</p>
-<h3>YANA · Software Engineer Intern</h3>
-<p>October 2023–January 2024, remote. I integrated itinerary recommendations driven by traveler telemetry, reducing response latency by 35%. A concurrent serialization service increased PDF, CSV, and JSON export throughput by 40%.</p>
-</div></details><details class="tile stack" id="stack"><summary><span class="context">Technical background</span><span class="arrow" aria-hidden="true">+</span><span class="tile-title">Skills &amp; education</span><div class="schema">
-<span>Java</span><span>TypeScript</span><strong>Python</strong>
+</li>
+<li>
+<p class="when">October 2023–January 2024, remote</p>
+<div>
+<h3>YANA</h3>
+<em>Software Engineer Intern</em><p>I integrated itinerary recommendations driven by traveler telemetry, reducing response latency by 35%. A concurrent serialization service increased PDF, CSV, and JSON export throughput by 40%.</p>
 </div>
-<span class="measure"><b>8.75/10</b> engineering degree CGPA</span></summary><div class="story">
-<p>I earned a B.E. in Computer Science and Engineering at SSM Institute of Engineering and Technology in Dindigul, November 2020–June 2024.</p>
-<h3>Languages and services</h3>
-<p>Java, TypeScript, Python, JavaScript, and SQL. I use Spring Boot, Node.js, Express, REST APIs, and WebSockets for backend work.</p>
-<h3>Data and infrastructure</h3>
-<p>PostgreSQL, Redis, BigQuery, Databricks, and Airflow. My cloud toolkit includes AWS S3, EKS, RDS, SQS, Google Cloud Run, Cloud Tasks, Docker, Kubernetes, and Argo CD.</p>
-<h3>Working with production systems</h3>
-<p>Grafana and Groundcover for observability. Git, Postman, Linux, Bash, and Frida for development and investigation.</p>
-</div></details>
-</div></section><section id="projects"><div class="heading"><h2>Personal project</h2></div>
-<details class="tile codeshare" id="codeshare"><summary><span class="context">Personal project · In development</span><span class="arrow" aria-hidden="true">+</span><span class="tile-title">CodeShare</span><div class="schema">
-<span>Editor A</span><i>⇄</i><strong>Room</strong><i>⇄</i><span>Editor B</span>
+</li>
+</ol></section><section id="skills"><div>
+<h2>Skills <em>&amp; education</em>
+</h2>
+<p class="degree">B.E. in Computer Science and Engineering</p>
+<p>SSM Institute of Engineering and Technology<br>Dindigul · 2020–2024 · 8.75/10 CGPA</p>
 </div>
-<span class="measure"><b>Room A</b> collaborative editing</span></summary><div class="story">
-<p>I’m building an editor where several people can work in one room. The design has to answer two questions: which edits belong together, and how does each server learn what changed?</p>
+<dl>
+<dt>Languages</dt>
+<dd>Java, TypeScript, Python, JavaScript, SQL</dd>
+<dt>Backend</dt>
+<dd>Spring Boot, Node.js, Express, REST APIs, WebSockets</dd>
+<dt>Data</dt>
+<dd>PostgreSQL, Redis, BigQuery, Databricks, Airflow</dd>
+<dt>Cloud &amp; delivery</dt>
+<dd>AWS S3, EKS, RDS, SQS · Cloud Run, Cloud Tasks · Docker, Kubernetes, Argo CD</dd>
+<dt>Operations</dt>
+<dd>Grafana, Groundcover, Git, Postman, Linux, Bash, Frida</dd>
+</dl></section><section id="projects"><div class="project-copy">
+<p class="context">Personal project · In development</p>
+<h2>CodeShare</h2>
+<p>A collaborative editor for people writing code in the same room. I’m working on keeping their edits in sync across server instances.</p>
+<details id="codeshare"><summary>Read the architecture</summary><div class="story">
+
 <h3>Inside a room</h3>
 <p>The React editor connects to Spring Boot using STOMP over WebSockets. Room-scoped state keeps one editing session separate from another.</p>
 <h3>Across servers</h3>
 <p>Redis Pub/Sub carries edit events between instances. A subscriber can then deliver changes to connected clients in the relevant room.</p>
 <h3>Current status</h3>
 <p>Development is ongoing. A public demo will follow deployment.</p>
-</div></details></section><section id="lab" hidden><div class="heading">
-<h2>Pipeline lab</h2>
-<span>Interactive sample</span>
+</div></details>
 </div>
-<div class="lab-panel">
-<div>
-<h3>Ship a clean batch.</h3>
-<p>Four sample events arrive. One has no ID and two share the same ID. Choose the stages in order to schedule each valid event once.</p>
-</div>
-<div class="console">
-<code id="events">[A17, null, A17, B04]</code><div class="commands">
-<button data-stage="schedule">Schedule</button><button data-stage="validate">Validate</button><button data-stage="deduplicate">Deduplicate</button>
-</div>
-<p role="status" id="result">Choose the first stage.</p>
-<button id="reset" hidden>Run again ↻</button>
-</div>
-</div></section></main>
+<figure class="project-map"><figcaption>How an edit travels</figcaption><ol>
+<li>
+<strong>React editor</strong><span>Capture an edit</span>
+</li>
+<li>
+<strong>Spring Boot</strong><span>Route it to the room over STOMP</span>
+</li>
+<li>
+<strong>Redis Pub/Sub</strong><span>Broadcast across server instances</span>
+</li>
+</ol></figure></section></main>
 <footer id="contact"><div>
 <strong>Pradeep Vijayakumar</strong><br><a href="mailto:pradeepkumar15v06@gmail.com">pradeepkumar15v06@gmail.com</a>
 </div>
